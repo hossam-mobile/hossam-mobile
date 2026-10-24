@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Hossam Mohammad - Flutter and Mobile Applications Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02569B"/>
+      <stop offset="1" stop-color="#13B9FD"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="240" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="240" fill="url(#bg)"/>
+
+    <!-- floating bubbles -->
+    <circle cx="120" cy="60" r="38" fill="#ffffff" opacity="0.07">
+      <animate attributeName="cy" values="60;40;60" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="50" r="52" fill="#ffffff" opacity="0.06">
+      <animate attributeName="cy" values="50;75;50" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="150" r="22" fill="#ffffff" opacity="0.08">
+      <animate attributeName="cy" values="150;130;150" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- waves -->
+    <path d="M0 190 Q125 160 250 190 T500 190 T750 190 T1000 190 T1250 190 T1500 190 T1750 190 T2000 190 V240 H0 Z" fill="#ffffff" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-500 205 Q-375 180 -250 205 T0 205 T250 205 T500 205 T750 205 T1000 205 T1250 205 T1500 205 V240 H-500 Z" fill="#ffffff" opacity="0.1">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="500 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- text -->
+    <text x="500" y="108" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" opacity="0">
+      Hossam Mohammad
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+      <animate attributeName="y" from="125" to="108" dur="1.2s" fill="freeze"/>
+    </text>
+    <text x="500" y="152" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#E3F6FF" opacity="0" letter-spacing="1">
+      Flutter &amp; Mobile Applications Engineer
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.6s" fill="freeze"/>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13B9FD"/>
+      <stop offset="1" stop-color="#02569B"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="110" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="110" fill="url(#bg)"/>
+
+    <path d="M0 60 Q125 30 250 60 T500 60 T750 60 T1000 60 T1250 60 T1500 60 T1750 60 T2000 60 V110 H0 Z" fill="#ffffff" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-500 78 Q-375 52 -250 78 T0 78 T250 78 T500 78 T750 78 T1000 78 T1250 78 T1500 78 V110 H-500 Z" fill="#ffffff" opacity="0.1">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="500 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+
+    <text x="500" y="46" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" letter-spacing="1">
+      Clean code, shipped to production.
+    </text>
+  </g>
+</svg>
