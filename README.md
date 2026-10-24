@@ -71,35 +71,23 @@ Spec-driven development with agentic AI, while **every architectural decision st
 </tr>
 </table>
 
+
 ---
-
+ 
 ## 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=flutter,dart,firebase,git,github,postman,androidstudio,vscode,azure&perline=9" alt="skills" />
-
-<br><br>
-
-![BLoC](https://img.shields.io/badge/BLoC_/_Cubit-1389FD?style=flat-square)
-![Provider](https://img.shields.io/badge/Provider-02569B?style=flat-square)
-![Dio](https://img.shields.io/badge/Dio_/_REST-0175C2?style=flat-square)
-![Hive](https://img.shields.io/badge/Hive_·_SQflite-FFB300?style=flat-square)
-![Pusher](https://img.shields.io/badge/Pusher-300D4F?style=flat-square)
-![FCM](https://img.shields.io/badge/FCM-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Maps](https://img.shields.io/badge/Google_Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
-![AppsFlyer](https://img.shields.io/badge/AppsFlyer-00C2FF?style=flat-square)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![MyFatoorah](https://img.shields.io/badge/MyFatoorah-0A8FDC?style=flat-square)
-![Paymob](https://img.shields.io/badge/Paymob-1E88E5?style=flat-square)
-![HyperPay](https://img.shields.io/badge/HyperPay-E53935?style=flat-square)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP_Servers-6C5CE7?style=flat-square)
-![SpecKit](https://img.shields.io/badge/Spec--Kit-2ea44f?style=flat-square)
-
-</div>
-
+ 
+| | |
+|---|---|
+| **📱 Mobile** | `Flutter` · `Dart` · `Flavors` |
+| **🧱 Architecture** | `Clean Architecture` · `SOLID` · `Design Patterns` · `Clean Code` |
+| **🔄 State Management** | `BLoC / Cubit` · `Provider` · `Streams` |
+| **🔌 Backend & Real-time** | `REST / Dio` · `Firebase (FCM)` · `Pusher` |
+| **🗺️ Integrations** | `Google Maps` · `AppsFlyer` · `Deep Linking` · `QR Scanning` · `POS` |
+| **💳 Payments** | `MyFatoorah` · `Paymob` · `HyperPay` · `Stripe` |
+| **💾 Local Storage** | `Hive` · `SQflite` |
+| **🤖 AI Workflow** | `Claude` · `Cursor` · `Spec-Kit` · `MCP Servers` |
+| **🧰 Tools** | `Git & GitHub` · `Android Studio` · `VS Code` · `Postman` · `Azure DevOps` · `Trello` |
+ 
 ---
 
 ## 📱 Featured Products
